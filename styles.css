@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.contenedorInput {
+  display: flex;
+  flex-direction: row;
+}
+.titulo {
+  color: gray;
+}
+
+.contenedorInput .contenedorOjo {
+  width: 12%;
+  border: solid 0.5px #afafaf;
+  border-radius: 0px 4px 4px 0px;
+}
+.contenedorInput .contenedorOjo .ojo {
+  width: 20px;
+  filter: invert(58%) sepia(2%) saturate(2%) hue-rotate(35deg) brightness(86%)
+    contrast(84%);
+}
+.inputPassword {
+  border-radius: 4px 0px 0px 4px;
+}
+.contenedorChek {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contenedorChek p {
+  color: #007bff;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  top: 6px;
+  position: relative;
+}
+.contenedorChek .texto {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 105px;
+}
