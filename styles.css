@@ -3,6 +3,12 @@
   margin: 0;
   padding: 0;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/fondo.jpg);
+}
 .contenedorInput {
   display: flex;
   flex-direction: row;
@@ -43,4 +49,14 @@
   display: flex;
   justify-content: center;
   width: 105px;
+}
+.contenedor {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  border: solid #afafaf 3px;
+  top: 50px;
+  border-radius: 10px;
+  background: white;
+  padding: 10px 10px 10px 10px;
 }
