@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.headerPrincial {
+  width: 100%;
+  height: 25px;
+  background: #165895;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 60%;
+  height: 25px;
+  background: #165895;
+  display: flex;
+  flex-direction: row;
+  font-size: 5px;
+  color: white;
+  justify-content: space-between;
+}
+.ordenarTextoVertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.ordenarTextoHorizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 40%;
+}
+.ordenarTextoHorizontal img {
+  width: 45px;
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(144deg)
+    brightness(105%) contrast(101%);
+}
+.ordenarTextoHorizontalBtnSalir {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+}
+.ordenarTextoHorizontalBtnSalir .imgSalir {
+  width: 10px;
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(144deg)
+    brightness(105%) contrast(101%);
+}
+p {
+  padding: 0;
+  margin-bottom: 0rem;
+}
+/*  ---------------------------------------------Cuerpo---------------------------------------------*/
+.cuerpoPrincipal {
+  width: 100%;
+  height: 1025px;
+  background: white;
+  display: flex;
+  justify-content: center;
+}
+.cuerpo {
+  width: 60%;
+  height: 1025px;
+  background: #b1b1b1;
+  display: flex;
+  flex-direction: row;
+  font-size: 5px;
+  justify-content: space-between;
+}
+.primerContenedor {
+  width: 100%;
+  height: 40px;
+  background: #eeeeee;
+}
+.ordenarTextoVertical2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.ordenarTextoHorizontal2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  width: 57%;
+}
+.card #cardImg {
+  width: 7%;
+  filter: invert(67%) sepia(43%) saturate(652%) hue-rotate(337deg)
+    brightness(91%) contrast(90%);
+}
+.ordenarTextoHorizontal2 .casaContenedor {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin-top: -9px;
+}
+.contenedorIconos {
+  width: 6%;
+  border: solid green 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#iconos {
+  width: 30%;
+  filter: invert(67%) sepia(43%) saturate(652%) hue-rotate(337deg)
+    brightness(91%) contrast(90%);
+}
+#iconosCasa {
+  width: 38%;
+  filter: invert(67%) sepia(43%) saturate(652%) hue-rotate(337deg)
+    brightness(91%) contrast(90%);
+}
+.ordenarTextoHorizontal2 .boton {
+  background: #165895;
+  color: white;
+  width: 17%;
+  height: 9px;
+  border-radius: 61px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.izquierda {
+  position: relative;
+  top: -5px;
+}
